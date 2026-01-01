@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import "./Navbar.css";
-import logo from "../../assets/logo.svg";
+
 import underline from "../../assets/nav_underline.svg";
 import menu_open from "../../assets/menu_open.svg";
 import menu_close from "../../assets/menu_close.svg";
@@ -21,7 +21,7 @@ const Navbar = () => {
     <div className="navbar">
       <span className="title">
         RahuL
-        <img src={theme_pattern}  alt="" />
+        <img src={theme_pattern} alt="" />
       </span>
       <img src={menu_open} onClick={openmenu} alt="" className="nav-mob-open" />
       <ul ref={menuRef} className="nav-menu">
