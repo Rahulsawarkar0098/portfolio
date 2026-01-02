@@ -60,13 +60,36 @@
         width: 50%;
         right: -20px;
     }
-    .mywork-container{
+
+    .mywork-container {
         grid-template-columns: 1fr 1fr;
         gap: 30px;
     }
-    .mywork-container img{
-     width: 100%;
-     height: 100%;
+
+    .mywork-container img {
+        width: 100%;
+        height: 100%;
     }
-  
+
+}
+
+@media (max-width:430px) {
+    .mywork {
+        gap: 50px;
+        margin: 30px 40px;
+    }
+
+    .title h1 {
+        font-size: 40px;
+        width: max-content;
+    }
+        .title img {
+            width: 40%;
+           
+        }
+
+    .mywork-container {
+        grid-template-columns: 1fr ;
+        gap: 30px;
+    }
 }
